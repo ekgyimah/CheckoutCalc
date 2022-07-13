@@ -62,4 +62,22 @@ public class TestClass {
         Assert.assertEquals("32000", result);
     }
 
+    @Test
+    public void testCheckoutPriceSingleSpecialItem(){
+        String[] items = new String[]{"A"};
+        String result = Main.checkout(items);
+
+        Assert.assertEquals("5000", result);
+    }
+
+    @Test
+    public void testCheckoutPriceSingleItem(){
+        String[] items = new String[]{"C"};
+        String result = Main.checkout(items);
+
+        Assert.assertEquals("2000", result);
+    }
+
+
+
 }
