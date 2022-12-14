@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main {
     public static String checkout(String[] items){
+        #Test
         Integer result = 0;
         Integer tempRes = 0;
         HashMap <String, Integer> promoItemMap = new HashMap<>();
