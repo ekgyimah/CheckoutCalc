@@ -3,11 +3,6 @@ package com.company;
 import java.util.*;
 
 public class Main {
-
-    public static void main(String[] args) {
-
-    }
-
     public static String checkout(String[] items){
         Integer result = 0;
         Integer tempRes = 0;
